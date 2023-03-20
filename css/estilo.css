@@ -360,3 +360,46 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 /*FIM DE PRODUTOS*/
+
+/*INICIO DE GALERIA*/
+
+.fotos {
+    width: 40%;
+    height: auto;
+    margin: 2%;
+    border-radius: 2px;
+}
+
+#banner-galeria {
+    background-image: url(../img/galeria/banner.jpg);
+    width: 100%;
+    height: 90vh;
+    margin-top: 5%;
+    background-size: cover;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.399);
+}
+
+#banner-galeria h1 {
+    float: right;
+    font-size: 5em;
+    margin-right: 8%;
+    margin-top: 8%;
+}
+
+#banner-galeria p {
+    clear: both;
+    float: right;
+    font-size: 1.3em;
+    margin-right: 8%;
+}
+
+#galeria {
+    width: 90%;
+    margin: 0px auto;
+    height: auto;
+}
+
+#galeria h1 {
+    padding: 4%;
+}
+/*FIM DE GALERIA*/
