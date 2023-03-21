@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pet plus - galeria</title>
+    <title>Pet Plus - Contato</title>
 
-    <link rel="stylesheet" href="./css/estilo.css" />
+    <link rel="stylesheet" href="./css/estilo.css">
 
     <!--importando fontes-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav class="nav">
         <ul>
@@ -24,32 +26,23 @@
         </ul>
     </nav>
 
-    <section id="banner-galeria">
-        <h1>GALERIA</h1>
-        <p>Alguns bichinhos que tiveram nossos cuidados!</p>
+    <section id="banner-contato">
+        <h1>CONTATO</h1>
     </section>
-    
-    <main id="galeria">
-        <h1>GATOS</h1>
-        <hr>
 
-        <figure class="fotos-container">
-            <img src="./img/galeria/gatos/gato 1.jpg" alt="" class="fotos">
-            <img src="./img/galeria/gatos/gato 2.jpg" alt="" class="fotos">
-            <img src="./img/galeria/gatos/gato 3.png" alt="" class="fotos">
-            <img src="./img/galeria/gatos/gato 4.png" alt="" class="fotos">
-        </figure>
-
-        <h1>CACHORROS</h1>
-        <hr>
-
-        <figure class="fotos-container">
-            <img src="./img/galeria/cachorros/cachorro 1.png" alt="" class="fotos">
-            <img src="./img/galeria/cachorros/cachorro 2.png" alt="" class="fotos">
-            <img src="./img/galeria/cachorros/cachorro 3.png" alt="" class="fotos">
-            <img src="./img/galeria/cachorros/cachorro 4.png" alt="" class="fotos">
-        </figure>
-
+    <main id="contato">
+        <label for="nome">Nome completo</label>
+        <input type="text" name="nome">
+        <label for="data">Data de nascimento</label>
+        <input type="date" name="data">
+        <label for="estado">Estado</label>
+        <input type="text" name="estado">
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade">
+        <label for="obs">Observações</label> 
+        <textarea name="obs"></textarea>
+        <input type="submit">
+        <input type="reset">
     </main>
 
     <footer class="footer">
@@ -83,4 +76,5 @@
         <p>&copy; 2023 Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>
